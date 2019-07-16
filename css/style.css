@@ -10,8 +10,37 @@ body, h1, h2, h3, p, ul{
     margin: 0 auto;
 }
 
+.container::after, .container::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Header */
 
 .headerPrincipal{
     background: #0454d4;
+    padding: 20px;
+}
+
+.headerLogo{
+    float: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.headerNav{
+    float: right;
+}
+
+.headerNav li{
+    display: inline-block;
+}
+
+.headerNav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
 }
