@@ -44,3 +44,25 @@ body, h1, h2, h3, p, ul{
     color: #fff;
     font-size: 1.2em;
 }
+
+/* Main */
+
+.mainIntro{
+    background: url("../img/bground.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+}
+
+.mainIntro h1{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.mainIntro p{
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
