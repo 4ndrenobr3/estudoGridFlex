@@ -113,10 +113,9 @@ body, h1, h2, h3, p, ul{
 }
 
 .contextoItem{
-    width: 300px;
+    max-width: 250px;
     float: left;
-    margin: 0 10px 20px 10px;
-   
+    margin: 0 10px 20px 50px;   
 }
 
 .contextoItem p{
@@ -124,4 +123,41 @@ body, h1, h2, h3, p, ul{
     line-height: 1.4em;
 }
 
+.sentimentos{
+    padding: 20px 0;
+}
 
+.sentimentosItem{
+    clear: both;
+    margin: 60px auto;
+}
+
+.sentimentosItem::after, .sentimentosItem::before{
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.sentimentosItem img{
+    width: 460px;
+    float: left;
+    display: block;
+    margin: 0 10px;
+}
+
+.sentimentosItem > div{
+    width: 460px;
+    float: left;
+    margin: 0 10px; 
+}
+
+.sentimentosItem h2{
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+
+.sentimentosItem p{
+    font-size: 0.875em;
+    line-height: 1.4em;
+    max-width: 320px;
+}
