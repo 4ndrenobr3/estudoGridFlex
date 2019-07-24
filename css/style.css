@@ -5,60 +5,36 @@ body, h1, h2, h3, p, ul{
     margin: 0;
 }
 
-.container{
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-.container::after, .container::before{
-    content: "";
-    display: table;
-    clear: both;
-}
 
 /* Header */
 
 .headerPrincipal{
     background: #0454d4;
-    padding: 20px;
 }
 
 .headerLogo{
-    float: left;
     color: #fff;
     text-decoration: none;
 }
 
-.headerNav{
-    float: right;
-}
 
-.headerNav li{
-    display: inline-block;
-}
+
 
 .headerNav a{
-    display: block;
-    padding: 10px;
+
     text-decoration: none;
     color: #fff;
     font-size: 1.2em;
 }
 
 
-@media(max-width: 739px ){
-   .headerNav{
-       float: none;
-       clear: both;
-   }
-}
+
 
 /* Main */
 
 .mainIntro{
     background: url("../img/bground.jpg") no-repeat center center;
     background-size: cover;
-    padding: 150px 0;
     text-align: center;
     color: #fff;
     text-shadow: 3px 3px 5px #000;
@@ -74,10 +50,7 @@ body, h1, h2, h3, p, ul{
     font-size: 1.5em;
 }
 
-@media(max-width: 739px){
-    .mainIntro{
-        padding: 60px 0;
-    }
+
 
     .mainIntro h1{
         font-size: 2em;
@@ -88,35 +61,23 @@ body, h1, h2, h3, p, ul{
     }
 }
 
-@media(max-width: 600px){
-    .mainIntro h1{
-        font-size: 1.5em;
-    }
 
-    .mainIntro p{
-        font-size: 0.5em;
-    }
-}
 
 /* tecnologias */
 
-.tecnologias{
-    padding: 80px 0;
-}
+
 
 .tecnologias h2{
     text-align: center;
     font-size: 2.25em;
-    margin-bottom: 80px;
 }
 
 
 
 .tecnologiasItem{
-    width: 320px;
-    float: left;
+
     text-align: center;
-    margin-bottom: 50px;
+
 }
 
 .tecnologiasItem h3{
@@ -127,32 +88,15 @@ body, h1, h2, h3, p, ul{
     font-size: 7em;
 }
 
-@media(min-width: 740px) and (max-width: 980px){
-    .container{
-       max-width: 720px; 
-    }
 
-    .tecnologiasItem{
-        width: 200px;
-    }
-}
 
-@media(max-width: 739px){
-    .container{
-        max-width: 300px;
-    }
 
-    .tecnologiasItem{
-        width: 300px;
-    }
-}
 
 /* contexto */
 
 .contexto{
     background-color: #0454d4;
     color: #fff;
-    padding: 80px;
     border-top: 5px solid #00f;
     border-bottom: 5px solid #00f;
    
@@ -160,95 +104,35 @@ body, h1, h2, h3, p, ul{
 
 .contextoItem h3{
     font-size: 2em;
-    margin-bottom: 20px;
     text-align: center;
 }
 
-.contextoItem{
-    max-width: 150px;
-    float: left;
-    margin: 10px 10px 10px 70px;   
-}
 
 .contextoItem p{
     font-size: 0.875em;
     line-height: 1.4em;
 }
 
-@media(min-width: 740px) and (max-width: 980px){
-    .contextoItem{
-        max-width: 100px;
-        
-    }
-}
-
-@media(max-width: 739px){
-    .contextoItem{
-        margin: 0;
-    }
-}
-
-.sentimentos{
-    padding: 20px 0;
-}
-
-.sentimentosItem{
-    clear: both;
-    margin: 60px auto;
-}
-
-.sentimentosItem::after, .sentimentosItem::before{
-    display: table;
-    clear: both;
-    content: '';
-}
-
-.sentimentosItem img{
-    width: 460px;
-    float: left;
-    display: block;
-    margin: 0 10px;
-}
-
-.sentimentosItem > div{
-    width: 460px;
-    float: left;
-    margin: 0 10px; 
-}
-
 .sentimentosItem h2{
     font-size: 2.25em;
-    margin-bottom: 20px;
 }
 
 .sentimentosItem p{
     font-size: 0.875em;
     line-height: 1.4em;
-    max-width: 320px;
 }
 
 
 
-@media(max-width: 739px){
-    .sentimentosItem img{
-        width: 280px;
-    }
-    .sentimentosItem p{
-        max-width: 270px;
-    }
-}
 
 /* Formulário */
 
 .formulario{
     background: #3492eb;
-    padding: 30px 0;
+
 }
 
 .formularioInfo{
-    width: 460px;
-    margin: 0 10px;
-    float: left;
     color: #0454d4;
 }
 
@@ -261,46 +145,30 @@ body, h1, h2, h3, p, ul{
     font-style: italic;
 }
 
-.formulario form{
-    width: 460px;
-    margin: 0 10px;
-    float: left;
-}
 
 .formulario form label{
     display: none;
 }
 
 .formulario input{
-    width: 294px;
     border: 3px solid #0454d4;
     color: #0454d4;
     background: none;
     font-size: 1.5em;
     font-style: italic;
-    float: left;
 }
 
 .formulario button{
     background: #0454d4;
     text-transform: uppercase;
-    width: 140px;
-    padding: 11px 0;
     border: none;
     color: #fff;
     cursor: pointer;
 }
 
 .rodape{
-    padding: 10px 0;
     text-align: center;
     background: #0454d4;
     color: #fff;
     font-weight: bold;
-}
-
-@media(max-width: 739px){
-    .formulario input{
-        float: none;
-    }
 }
