@@ -19,6 +19,7 @@ img{
 
 .headerPrincipal{
     background: #0454d4;
+    padding: 15px 0;
 }
 
 .headerLogo{
@@ -26,7 +27,12 @@ img{
     text-decoration: none;
 }
 
-
+.headerNav ul{
+    float: right;
+}
+.headerNav ul li{
+    display: inline-block;
+}
 
 
 .headerNav a{
@@ -34,9 +40,22 @@ img{
     text-decoration: none;
     color: #fff;
     font-size: 1.2em;
+    display: block;
+    padding: 10px;
+    margin-left: 10px;
 }
 
+@media (max-width: 739px){
+    .headerNav ul{
+        float: none;
+    }
 
+    .headerNav ul li a{
+        margin-left: none;
+        padding-left: none;
+        padding-right: 8px;
+    } 
+}
 
 
 /* Main */
@@ -46,6 +65,8 @@ img{
     background-size: cover;
     color: #fff;
     text-shadow: 3px 3px 5px #000;
+    padding: 150px 0;
+    text-align: center;
 }
 
 .mainIntro h1{
@@ -59,14 +80,17 @@ img{
 }
 
 
-
+@media (max-width: 739px){
+    .mainIntro{
+        padding: 60px 0;
+    }
     .mainIntro h1{
-        font-size: 2em;
+        font-size: 1.7em;
     }
-
     .mainIntro p{
-        font-size: 1em;
+        font-size: 0.85em;
     }
+}
 
 
 
