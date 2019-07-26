@@ -98,9 +98,13 @@ img{
 /* tecnologias */
 
 
-
+.tecnologias{
+    padding: 60px 0;
+    text-align: center;
+}
 .tecnologias h2{
     font-size: 2.25em;
+    margin-bottom: 60px;
 }
 
 
@@ -125,11 +129,14 @@ img{
     color: #fff;
     border-top: 5px solid #00f;
     border-bottom: 5px solid #00f;
+    padding: 60px 0;
    
 }
 
 .contextoItem h3{
+    text-align: center;
     font-size: 2em;
+    margin-bottom: 20px;
 }
 
 
@@ -138,6 +145,14 @@ img{
     line-height: 1.4em;
 }
 
+
+.sentimentos{
+    padding: 60px 0;
+}
+
+.sentimentosItem{
+    margin-bottom: 40px;
+}
 .sentimentosItem h2{
     font-size: 2.25em;
 }
@@ -154,6 +169,7 @@ img{
 
 .formulario{
     background: #3492eb;
+    padding: 60px 0;
 
 }
 
@@ -181,6 +197,9 @@ img{
     background: none;
     font-size: 1.5em;
     font-style: italic;
+    width: calc(100% - 140px);
+    padding: 10px;
+    float: left;
 }
 
 .formulario button{
@@ -189,10 +208,16 @@ img{
     border: none;
     color: #fff;
     cursor: pointer;
+    width: 140px;
+    padding: 13px 0;
+    float: left;
+    font-size: 1.5em;
 }
 
 .rodape{
     background: #0454d4;
     color: #fff;
     font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
 }
