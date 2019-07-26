@@ -1,0 +1,60 @@
+/* reset */
+
+body, h1, h2, h3, p, ul{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+.headerPrincipal{
+    background-color: #000;
+    border-bottom: 3px solid #ddc686;
+    padding: 20px 0;
+}
+
+.headerPrincipal a{
+    text-decoration: none;
+    color: #ddc686;
+}
+
+.headerNav {
+    flex: 1;
+    align-self: center;
+}
+
+.headerNav ul{
+  float: right;
+  display: flex;
+  list-style: none;
+  color: #ddc686;
+}
+
+.headerNav ul li a{
+   padding: 10px;
+}
+
+/* Main */
+
+.mainIntro{
+    background: url("../img/main.jpg") no-repeat center;
+    background-size: cover;
+    background-color: #000;
+    height: 600px;
+    color:  #fff;
+}
+
+.mainIntro h1, .mainIntro h2{
+    background-color: #100815;
+}
