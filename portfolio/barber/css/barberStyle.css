@@ -51,10 +51,57 @@ body, h1, h2, h3, p, ul{
     background: url("../img/main.jpg") no-repeat center;
     background-size: cover;
     background-color: #000;
-    height: 600px;
+    padding: 250px 0;
     color:  #fff;
+    text-align: center;
 }
 
-.mainIntro h1, .mainIntro h2{
-    background-color: #100815;
+.mainIntro h2{
+    font-size: 3em;
+   
 }
+
+.mainIntro h1{
+    font-size: 3.5em;
+  
+}
+
+/* Historia */
+
+.historia{
+    padding: 100px 0;
+}
+
+.historia h2{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.historia p{
+    font-size: 1.2em;
+}
+
+.historiaItem{
+    margin: 10px 10px 20px 0;
+}
+.historiaItem img{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+/* Footer */
+
+.footer{
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    background: #000;
+    color: #ddc686;
+    border-top: 3px solid #ddc686;
+}
+
+
+
